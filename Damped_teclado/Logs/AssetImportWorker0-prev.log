@@ -15,11 +15,11 @@ D:/Repo_Github/Ejemplos_Unity/Damped_teclado
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65103
+50026
 Successfully changed project path to: D:/Repo_Github/Ejemplos_Unity/Damped_teclado
 D:/Repo_Github/Ejemplos_Unity/Damped_teclado
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 22.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 20.97 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -31,89 +31,83 @@ Direct3D:
     Vendor:   
     VRAM:     5980 MB
     Driver:   27.21.14.6679
-Shader 'TEXDraw/Lit Bump Map/Full': fallback shader 'TEXDraw/Lit Transparent/4 Pass' not found
-Shader 'TEXDraw/Lit Transparent/Full': fallback shader 'TEXDraw/Default/4 Pass' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001888 seconds.
+Registered in 0.001849 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 21.58 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 21.12 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.883 seconds
+- Completed reload, in  0.876 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000571 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.686 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader 'TEXDraw/Lit Transparent/Full': fallback shader 'TEXDraw/Default/4 Pass' not found
-Shader 'TEXDraw/Lit Bump Map/Full': fallback shader 'TEXDraw/Lit Transparent/4 Pass' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1716.
-Total: 1.538400 ms (FindLiveObjects: 0.114500 ms CreateObjectMapping: 0.028700 ms MarkObjects: 1.262600 ms  DeleteObjects: 0.131700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/TEXDraw/Script/Shaders/TEXShader1Pass.shader
-  artifactKey: Guid(f136bea64a569d9488ea2be344290a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TEXDraw/Script/Shaders/TEXShader1Pass.shader using Guid(f136bea64a569d9488ea2be344290a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2e69051e126949aa60ca7de2073706') in 0.028266 seconds
-  Import took 0.029895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.813635 seconds.
-  path: Assets/TEXDraw/Script/Shaders/TEXShader2Pass.shader
-  artifactKey: Guid(dc05c3d28d1e7dc4b96f428dc4d04a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TEXDraw/Script/Shaders/TEXShader2Pass.shader using Guid(dc05c3d28d1e7dc4b96f428dc4d04a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fd287bc6a0e49532c2210d9a2c1786') in 0.005437 seconds
-  Import took 0.007496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023094 seconds.
-  path: Assets/TEXDraw/Script/Shaders/TEXShader2Pass.shader
-  artifactKey: Guid(dc05c3d28d1e7dc4b96f428dc4d04a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TEXDraw/Script/Shaders/TEXShader2Pass.shader using Guid(dc05c3d28d1e7dc4b96f428dc4d04a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fd287bc6a0e49532c2210d9a2c1786') in 0.003819 seconds
-  Import took 0.005502 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000611 seconds.
+Registered in 0.000731 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.660 seconds
+- Completed reload, in  0.669 seconds
 Platform modules already initialized, skipping
-Shader 'TEXDraw/Lit Transparent/Full': fallback shader 'TEXDraw/Default/4 Pass' not found
-Shader 'TEXDraw/Lit Bump Map/Full': fallback shader 'TEXDraw/Lit Transparent/4 Pass' not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.3 MB.
-System memory in use after: 72.4 MB.
+Unloading 1139 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.4 MB.
+System memory in use after: 70.4 MB.
 
-Unloading 98 unused Assets to reduce memory usage. Loaded Objects now: 1625.
-Total: 1.512100 ms (FindLiveObjects: 0.098500 ms CreateObjectMapping: 0.027400 ms MarkObjects: 1.349300 ms  DeleteObjects: 0.036000 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1602.
+Total: 1.443900 ms (FindLiveObjects: 0.109300 ms CreateObjectMapping: 0.028600 ms MarkObjects: 1.248900 ms  DeleteObjects: 0.056300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/texdraw
+  artifactKey: Guid(b882f3588c98c764f82207208cf3db0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texdraw using Guid(b882f3588c98c764f82207208cf3db0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba3290c5a3316c43567fdf3fa0bf624') in 0.005846 seconds
+  Import took 0.007363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.551312 seconds.
+  path: Assets/texdraw/texdraw.sty
+  artifactKey: Guid(b1487cae83e955249bf51bfe2d33cef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texdraw/texdraw.sty using Guid(b1487cae83e955249bf51bfe2d33cef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d51c6faa6dd92c261f9e9b90dfc1de9') in 0.024576 seconds
+  Import took 0.026151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.105437 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.004409 seconds
+  Import took 0.005951 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000671 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 21.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.673 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.2 MB.
+System memory in use after: 73.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1706.
+Total: 1.402400 ms (FindLiveObjects: 0.100400 ms CreateObjectMapping: 0.027100 ms MarkObjects: 1.230400 ms  DeleteObjects: 0.043700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

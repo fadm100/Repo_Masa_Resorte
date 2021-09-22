@@ -28,7 +28,7 @@ public class SpringScale : MonoBehaviour
         var transformLocalScale = transform.localScale;
         transformLocalScale.y = _actual.y + pos.delta.z*4;
         transform.localScale = transformLocalScale;
-        Debug.Log("la posición que quiero es " + pos.delta);
+        //Debug.Log("la posición que quiero es " + pos.delta);
 
     }
 }
