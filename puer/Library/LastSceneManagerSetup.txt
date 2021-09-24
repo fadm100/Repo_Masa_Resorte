@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-06-SimpleNote.unity
+- path: Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

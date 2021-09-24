@@ -49,6 +49,11 @@ public class TexSampleSimpleNote : MonoBehaviour
     // Update is called once per frame
     public void SubmitText(string txt)
     {
+        //int num1 = 30, num2 = 5, num3 = 1; 
+        //string formula = string.Format( @"Solve: \sin({0})+\root{{\frac{{{1}}}{{{2}}}", num1, num2, num3,"\n");
+        //string formula = "Solve: \\sin(30)+\\root{\\frac{5}{1}}";
+        //string formula = @"Solve: \sin(30)+\root{\frac{5}{1}}";
+        //string formula = string.Format( @"Solve:{3} \sin({0})+\root{{\frac{{{1}}}{{{2}}}", num1, num2, num3, "\n");
         if (string.IsNullOrEmpty(txt))
             return;
         txt = StabilizeBracesCount(txt);
