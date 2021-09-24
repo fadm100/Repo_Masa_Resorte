@@ -2830,6 +2830,7 @@ GameObject:
   - component: {fileID: 1015066102}
   - component: {fileID: 1015066104}
   - component: {fileID: 1015066103}
+  - component: {fileID: 1015066105}
   m_Layer: 5
   m_Name: TransferFunction
   m_TagString: Untagged
@@ -2877,7 +2878,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Alignment: {x: 0.5, y: 0.5}
-  m_Text: "Funci\xF3n de Transferencia:\n$G(s)=\\frac{100}{s^2+2s+100}$"
+  m_Text: 
   m_Size: 36
   m_ScrollArea:
     serializedVersion: 2
@@ -2899,6 +2900,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1015066101}
   m_CullTransparentMesh: 1
+--- !u!114 &1015066105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015066101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46c76b354f02580499f9bccb6b724d9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output: {fileID: 1015066103}
 --- !u!1 &1146079744
 GameObject:
   m_ObjectHideFlags: 0

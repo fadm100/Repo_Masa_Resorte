@@ -15,11 +15,11 @@ D:/Repo_Masa_Resorte/puer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52967
+51735
 Successfully changed project path to: D:/Repo_Masa_Resorte/puer
 D:/Repo_Masa_Resorte/puer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 22.62 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 23.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -35,52 +35,337 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001889 seconds.
+Registered in 0.001904 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 23.16 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.917 seconds
+- Completed reload, in  0.943 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000571 seconds.
+Registered in 0.000564 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 22.49 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.57 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.717 seconds
+- Completed reload, in  0.724 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1257 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 61.4 MB.
 System memory in use after: 61.5 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1699.
-Total: 1.309800 ms (FindLiveObjects: 0.107500 ms CreateObjectMapping: 0.030400 ms MarkObjects: 1.105600 ms  DeleteObjects: 0.065400 ms)
+Total: 1.398700 ms (FindLiveObjects: 0.103700 ms CreateObjectMapping: 0.028100 ms MarkObjects: 1.201300 ms  DeleteObjects: 0.064800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Plugins/TEXDraw/Sample/Scenes/NewTEXDraw5.x-Input.unity
-  artifactKey: Guid(7f96a41d4d490474ba1b0a6e899743b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scenes/NewTEXDraw5.x-Input.unity using Guid(7f96a41d4d490474ba1b0a6e899743b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ffbe0bbbfdc477024b946a811d19fd') in 0.013272 seconds
-  Import took 0.014876 seconds .
+  path: Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleSimpleNote.cs
+  artifactKey: Guid(70bd23877b7cb904b9a7c91f8a458eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleSimpleNote.cs using Guid(70bd23877b7cb904b9a7c91f8a458eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c62a9dcaf9e06396f57ec588723343') in 0.069379 seconds
+  Import took 0.070946 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000589 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.667 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.3 MB.
+System memory in use after: 61.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1702.
+Total: 1.410500 ms (FindLiveObjects: 0.104900 ms CreateObjectMapping: 0.030600 ms MarkObjects: 1.232400 ms  DeleteObjects: 0.041800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 89.918012 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scenes/NewTEXDraw5.x-Manual.unity
-  artifactKey: Guid(8dc32461513702c4197e2e49b0fcad8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scenes/NewTEXDraw5.x-Manual.unity using Guid(8dc32461513702c4197e2e49b0fcad8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6481834a90fe88c3952568b6d3ab1a') in 0.004687 seconds
-  Import took 0.006703 seconds .
+  Time since last request: 117.517537 seconds.
+  path: Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleSimpleNote.cs
+  artifactKey: Guid(70bd23877b7cb904b9a7c91f8a458eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleSimpleNote.cs using Guid(70bd23877b7cb904b9a7c91f8a458eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0006a804b26e91b054bde3def39813d') in 0.005084 seconds
+  Import took 0.006732 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000614 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.687 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.4 MB.
+System memory in use after: 61.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1705.
+Total: 1.401300 ms (FindLiveObjects: 0.103400 ms CreateObjectMapping: 0.028600 ms MarkObjects: 1.227800 ms  DeleteObjects: 0.040700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.135049 seconds.
+  path: Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleSimpleNote.cs
+  artifactKey: Guid(70bd23877b7cb904b9a7c91f8a458eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleSimpleNote.cs using Guid(70bd23877b7cb904b9a7c91f8a458eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6350cbe8582403f17f95ac009c8055f8') in 0.006984 seconds
+  Import took 0.008497 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000552 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.682 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.4 MB.
+System memory in use after: 61.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1708.
+Total: 1.449600 ms (FindLiveObjects: 0.123700 ms CreateObjectMapping: 0.033700 ms MarkObjects: 1.252000 ms  DeleteObjects: 0.039500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.496150 seconds.
+  path: Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleSimpleNote.cs
+  artifactKey: Guid(70bd23877b7cb904b9a7c91f8a458eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleSimpleNote.cs using Guid(70bd23877b7cb904b9a7c91f8a458eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7222e201942b0ae7975c811629d34c3b') in 0.006746 seconds
+  Import took 0.008370 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000583 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.691 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.4 MB.
+System memory in use after: 61.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1711.
+Total: 1.393900 ms (FindLiveObjects: 0.103600 ms CreateObjectMapping: 0.028200 ms MarkObjects: 1.219400 ms  DeleteObjects: 0.041700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.753855 seconds.
+  path: Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleSimpleNote.cs
+  artifactKey: Guid(70bd23877b7cb904b9a7c91f8a458eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleSimpleNote.cs using Guid(70bd23877b7cb904b9a7c91f8a458eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a548ea96584273960ecf8cede762b05') in 0.005178 seconds
+  Import took 0.006863 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000610 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.683 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.4 MB.
+System memory in use after: 61.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1714.
+Total: 1.421800 ms (FindLiveObjects: 0.105600 ms CreateObjectMapping: 0.030900 ms MarkObjects: 1.243200 ms  DeleteObjects: 0.041400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 124.113838 seconds.
+  path: Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleSimpleNote.cs
+  artifactKey: Guid(70bd23877b7cb904b9a7c91f8a458eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleSimpleNote.cs using Guid(70bd23877b7cb904b9a7c91f8a458eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc480c286f94b2520a155b5be1521f5a') in 0.005580 seconds
+  Import took 0.007093 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000565 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.671 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.4 MB.
+System memory in use after: 61.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1717.
+Total: 1.402900 ms (FindLiveObjects: 0.103500 ms CreateObjectMapping: 0.030000 ms MarkObjects: 1.230100 ms  DeleteObjects: 0.038600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000555 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.692 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.4 MB.
+System memory in use after: 61.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1720.
+Total: 1.447700 ms (FindLiveObjects: 0.106500 ms CreateObjectMapping: 0.029600 ms MarkObjects: 1.268900 ms  DeleteObjects: 0.042000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.335887 seconds.
+  path: Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleSimpleNote.cs
+  artifactKey: Guid(70bd23877b7cb904b9a7c91f8a458eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleSimpleNote.cs using Guid(70bd23877b7cb904b9a7c91f8a458eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3410b073154ee91b6efbb536912a85') in 0.004908 seconds
+  Import took 0.006375 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000589 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.691 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.4 MB.
+System memory in use after: 61.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1723.
+Total: 1.423200 ms (FindLiveObjects: 0.108300 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.242600 ms  DeleteObjects: 0.040400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.599018 seconds.
+  path: Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleSimpleNote.cs
+  artifactKey: Guid(70bd23877b7cb904b9a7c91f8a458eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleSimpleNote.cs using Guid(70bd23877b7cb904b9a7c91f8a458eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27aa4ac29320b3e0b53b4af41d51f8f6') in 0.005826 seconds
+  Import took 0.007390 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000621 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.700 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.4 MB.
+System memory in use after: 61.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1726.
+Total: 1.390900 ms (FindLiveObjects: 0.104800 ms CreateObjectMapping: 0.028700 ms MarkObjects: 1.217200 ms  DeleteObjects: 0.039500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.961894 seconds.
+  path: Assets/Plugins/TEXDraw/Core
+  artifactKey: Guid(9691cbde15614e34f9a6f4c855e4e430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TEXDraw/Core using Guid(9691cbde15614e34f9a6f4c855e4e430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2fd227762a4ea08ff0f35c7f52eb0c') in 0.006672 seconds
+  Import took 0.008525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.078477 seconds.
+  path: Assets/Plugins/TEXDraw/Core/TEXConfiguration.cs
+  artifactKey: Guid(fb281b282af82a74a8232270ec331b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TEXDraw/Core/TEXConfiguration.cs using Guid(fb281b282af82a74a8232270ec331b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a396c8bf8cb5e70cf835da2c2d65d03') in 0.004543 seconds
+  Import took 0.006280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.887590 seconds.
+  path: Assets/Plugins/TEXDraw/Core/TexFont.cs
+  artifactKey: Guid(3323630c18e2a9e4babea8cdc09f40f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TEXDraw/Core/TexFont.cs using Guid(3323630c18e2a9e4babea8cdc09f40f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f760e7b7047ece6fd4ebcb9b17a66300') in 0.004368 seconds
+  Import took 0.006301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.944958 seconds.
+  path: Assets/Plugins/TEXDraw/Core/TexFontSigned.cs
+  artifactKey: Guid(3f06751eb786776498a431c862bfe58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TEXDraw/Core/TexFontSigned.cs using Guid(3f06751eb786776498a431c862bfe58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f04b51b61db9c49fb68e2471a9c22b') in 0.031831 seconds
+  Import took 0.033482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.483845 seconds.
+  path: Assets/Plugins/TEXDraw/Script
+  artifactKey: Guid(80fc511e0bb3e80468b50bc16f30cd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TEXDraw/Script using Guid(80fc511e0bb3e80468b50bc16f30cd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984843968bb90a4669cf86d3a84b07c5') in 0.004374 seconds
+  Import took 0.006276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.781019 seconds.
+  path: Assets/Plugins/TEXDraw/Script/TEXDrawShaderDefault.shader
+  artifactKey: Guid(33fab29e5ddeac6498e4b6013ce19d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TEXDraw/Script/TEXDrawShaderDefault.shader using Guid(33fab29e5ddeac6498e4b6013ce19d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3b1afef57ce889a7c1f7d860d78433') in 0.032333 seconds
+  Import took 0.034061 seconds .
 
 ========================================================================
 Received Prepare
@@ -91,145 +376,7 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.664 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.3 MB.
-System memory in use after: 61.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1702.
-Total: 1.416900 ms (FindLiveObjects: 0.101700 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.242300 ms  DeleteObjects: 0.042000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 200.654793 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scenes/NewTEXDraw5.x-Syntax.unity
-  artifactKey: Guid(ddd8e4384d2bdb141916dd1270fe434c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scenes/NewTEXDraw5.x-Syntax.unity using Guid(ddd8e4384d2bdb141916dd1270fe434c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2152c1967198a976aa19e9afd930a7') in 0.013398 seconds
-  Import took 0.015055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.506403 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-01-ExampleFromSheets.unity
-  artifactKey: Guid(32762b98cdfeaad48b380adfee4a4282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-01-ExampleFromSheets.unity using Guid(32762b98cdfeaad48b380adfee4a4282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc26cd88312f1875d6ef449ac21a08a') in 0.004517 seconds
-  Import took 0.006181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.849140 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-02-PerformanceTest.unity
-  artifactKey: Guid(8b98f5396bce4494b80c7e1d40b658fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-02-PerformanceTest.unity using Guid(8b98f5396bce4494b80c7e1d40b658fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1edb638ae3547a0c5f946b3ae1e8dbb') in 0.004820 seconds
-  Import took 0.006494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 57.261094 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-03-TryAndPractice.unity
-  artifactKey: Guid(e714163ed688a55499e661e7897007e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-03-TryAndPractice.unity using Guid(e714163ed688a55499e661e7897007e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1152e8318cf0b1a3a3f451e4c8380f') in 0.004472 seconds
-  Import took 0.006167 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000659 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.687 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.4 MB.
-System memory in use after: 61.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1705.
-Total: 1.235600 ms (FindLiveObjects: 0.109700 ms CreateObjectMapping: 0.030300 ms MarkObjects: 1.054000 ms  DeleteObjects: 0.041100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 289.245607 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-04-LinkBehaviour.unity
-  artifactKey: Guid(d8bfa0100f8c9b047a2ccd04c429cb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-04-LinkBehaviour.unity using Guid(d8bfa0100f8c9b047a2ccd04c429cb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8108ea93812fa3f6072e9642240ea93b') in 0.013398 seconds
-  Import took 0.015056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.484699 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-05-SpriteFontUsage.unity
-  artifactKey: Guid(93264edf60f3c0148a7c70c9f262ded5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-05-SpriteFontUsage.unity using Guid(93264edf60f3c0148a7c70c9f262ded5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092604dc273c36214bfd9f4b7a5ac082') in 0.004782 seconds
-  Import took 0.006512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000591 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-05-SpriteFontUsage.unity
-  artifactKey: Guid(93264edf60f3c0148a7c70c9f262ded5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-05-SpriteFontUsage.unity using Guid(93264edf60f3c0148a7c70c9f262ded5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092604dc273c36214bfd9f4b7a5ac082') in 0.363400 seconds
-  Import took 0.365025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.714356 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-06-SimpleNote.unity
-  artifactKey: Guid(a7bdcb2d22efd0143a227daec4d02c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-06-SimpleNote.unity using Guid(a7bdcb2d22efd0143a227daec4d02c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630269e9aed9bf79072d4d1693471034') in 0.004438 seconds
-  Import took 0.006105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005806 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-06-SimpleNote.unity
-  artifactKey: Guid(a7bdcb2d22efd0143a227daec4d02c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-06-SimpleNote.unity using Guid(a7bdcb2d22efd0143a227daec4d02c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630269e9aed9bf79072d4d1693471034') in 0.003357 seconds
-  Import took 0.005023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 131.746678 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-PreferenceSetUp.unity
-  artifactKey: Guid(f38f0b238b288384cb80d8e059d6b7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-PreferenceSetUp.unity using Guid(f38f0b238b288384cb80d8e059d6b7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b51a1d458ddcbdc4cba6681cbbcd20') in 0.004490 seconds
-  Import took 0.006486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002317 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-PreferenceSetUp.unity
-  artifactKey: Guid(f38f0b238b288384cb80d8e059d6b7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-PreferenceSetUp.unity using Guid(f38f0b238b288384cb80d8e059d6b7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b51a1d458ddcbdc4cba6681cbbcd20') in 0.003482 seconds
-  Import took 0.005183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.040039 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-ShowCase.unity
-  artifactKey: Guid(2ac4cf319264a98438792faa13121f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scenes/TEXDraw-ShowCase.unity using Guid(2ac4cf319264a98438792faa13121f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ac7e61db47c6abf7f3bfa75b224368') in 0.004609 seconds
-  Import took 0.006479 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000590 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.659 seconds
+- Completed reload, in  0.709 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
@@ -238,27 +385,82 @@ Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 61.4 MB.
 System memory in use after: 61.5 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1708.
-Total: 1.338800 ms (FindLiveObjects: 0.107500 ms CreateObjectMapping: 0.043800 ms MarkObjects: 1.144100 ms  DeleteObjects: 0.042600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 767.661611 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83606fd414a1e6e3e6c9999e3ad8740') in 0.014627 seconds
-  Import took 0.016835 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1729.
+Total: 1.376100 ms (FindLiveObjects: 0.106800 ms CreateObjectMapping: 0.027600 ms MarkObjects: 1.199300 ms  DeleteObjects: 0.041700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000677 seconds.
+Registered in 0.000544 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.711 seconds
+- Completed reload, in  0.714 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.4 MB.
+System memory in use after: 61.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1732.
+Total: 1.300300 ms (FindLiveObjects: 0.105900 ms CreateObjectMapping: 0.030000 ms MarkObjects: 1.123800 ms  DeleteObjects: 0.039700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.716 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.4 MB.
+System memory in use after: 61.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1735.
+Total: 1.469900 ms (FindLiveObjects: 0.116400 ms CreateObjectMapping: 0.030200 ms MarkObjects: 1.276600 ms  DeleteObjects: 0.045900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000570 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.703 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.4 MB.
+System memory in use after: 61.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1738.
+Total: 1.361200 ms (FindLiveObjects: 0.105300 ms CreateObjectMapping: 0.030900 ms MarkObjects: 1.182500 ms  DeleteObjects: 0.041800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000604 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.738 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
@@ -267,99 +469,19 @@ Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 61.4 MB.
 System memory in use after: 61.5 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1711.
-Total: 1.320000 ms (FindLiveObjects: 0.108400 ms CreateObjectMapping: 0.029800 ms MarkObjects: 1.139000 ms  DeleteObjects: 0.041900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 867.581133 seconds.
-  path: Assets/Plugins/TEXDraw/Sample
-  artifactKey: Guid(e5c4f0c0ba1e015479720e2a52cba24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample using Guid(e5c4f0c0ba1e015479720e2a52cba24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43f20193b519f8de5dcc0f67a120cfa') in 0.006494 seconds
-  Import took 0.008455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.764564 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scenes
-  artifactKey: Guid(f4a24b97fe2e693438e52419380ad4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scenes using Guid(f4a24b97fe2e693438e52419380ad4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fea85380b4ad0e53e261c696900f1e') in 0.004058 seconds
-  Import took 0.005697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.503871 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scripts
-  artifactKey: Guid(df02d8aad0f906f49b4d58d270b63667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scripts using Guid(df02d8aad0f906f49b4d58d270b63667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26661438d56a4c4435748d126804d22') in 0.004301 seconds
-  Import took 0.006304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.839545 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scripts/TexConstantUpdater.cs
-  artifactKey: Guid(70bcff9966e38f14eb0001c9e7fe0da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scripts/TexConstantUpdater.cs using Guid(70bcff9966e38f14eb0001c9e7fe0da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5583ce7fc4cca8bee288eb0623e7f71c') in 0.018516 seconds
-  Import took 0.020198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014964 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scripts/TexConstantUpdater.cs
-  artifactKey: Guid(70bcff9966e38f14eb0001c9e7fe0da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scripts/TexConstantUpdater.cs using Guid(70bcff9966e38f14eb0001c9e7fe0da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5583ce7fc4cca8bee288eb0623e7f71c') in 0.003374 seconds
-  Import took 0.005317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.647707 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleInputDemo.cs
-  artifactKey: Guid(5739c88f81f7c61469cca3e0ae6d4e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleInputDemo.cs using Guid(5739c88f81f7c61469cca3e0ae6d4e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb8bd6c29af68408e4fc878564714c2') in 0.004349 seconds
-  Import took 0.006078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.670130 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleSimpleNote.cs
-  artifactKey: Guid(70bd23877b7cb904b9a7c91f8a458eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleSimpleNote.cs using Guid(70bd23877b7cb904b9a7c91f8a458eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723eab3c05db7e852d606dcc90b74783') in 0.004272 seconds
-  Import took 0.006088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.183006 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleTryPractice.cs
-  artifactKey: Guid(61ac40ae896dd4f489d8e2b733f0767b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleTryPractice.cs using Guid(61ac40ae896dd4f489d8e2b733f0767b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa406b69a9cb2fade2c184fd0fdc8355') in 0.004384 seconds
-  Import took 0.006193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000704 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleTryPractice.cs
-  artifactKey: Guid(61ac40ae896dd4f489d8e2b733f0767b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scripts/TexSampleTryPractice.cs using Guid(61ac40ae896dd4f489d8e2b733f0767b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa406b69a9cb2fade2c184fd0fdc8355') in 0.003362 seconds
-  Import took 0.005116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.022749 seconds.
-  path: Assets/Plugins/TEXDraw/Sample/Scripts/TexShowcaseToggle.cs
-  artifactKey: Guid(9e9619d1ec43cd0418a10fb286f5b15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/TEXDraw/Sample/Scripts/TexShowcaseToggle.cs using Guid(9e9619d1ec43cd0418a10fb286f5b15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e72f34d1fc0dcf8b99318176f167a7f') in 0.004160 seconds
-  Import took 0.005833 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1741.
+Total: 1.428600 ms (FindLiveObjects: 0.117000 ms CreateObjectMapping: 0.033800 ms MarkObjects: 1.200000 ms  DeleteObjects: 0.076900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000629 seconds.
+Registered in 0.000583 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.672 seconds
+- Completed reload, in  0.738 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
@@ -368,7 +490,134 @@ Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 61.5 MB.
 System memory in use after: 61.5 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1714.
-Total: 1.320500 ms (FindLiveObjects: 0.099500 ms CreateObjectMapping: 0.028800 ms MarkObjects: 1.153300 ms  DeleteObjects: 0.038300 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1744.
+Total: 1.415000 ms (FindLiveObjects: 0.107500 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.233400 ms  DeleteObjects: 0.042300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000632 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.801 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.5 MB.
+System memory in use after: 61.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1747.
+Total: 1.432100 ms (FindLiveObjects: 0.131700 ms CreateObjectMapping: 0.038200 ms MarkObjects: 1.214300 ms  DeleteObjects: 0.046900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3470.238763 seconds.
+  path: Assets/Suspension/Textures
+  artifactKey: Guid(8479233cbb8f0c2409682db753a7cc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suspension/Textures using Guid(8479233cbb8f0c2409682db753a7cc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2c92d3293ccf368daca4c8dd4f8b12') in 0.006111 seconds
+  Import took 0.008215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.112221 seconds.
+  path: Assets/Suspension/Textures/Pickup
+  artifactKey: Guid(8f4c53b6b6c63f543998a55976c8e139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suspension/Textures/Pickup using Guid(8f4c53b6b6c63f543998a55976c8e139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c7105463017e657700239679a9757a') in 0.039318 seconds
+  Import took 0.041051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.454381 seconds.
+  path: Assets/Suspension/Textures/Pickup/Body
+  artifactKey: Guid(6c0c67e73fdbba648bbdd96e8231d066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suspension/Textures/Pickup/Body using Guid(6c0c67e73fdbba648bbdd96e8231d066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92730c0c16992b770662b4f264664308') in 0.043461 seconds
+  Import took 0.045143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.618780 seconds.
+  path: Assets/Suspension/Textures/Pickup/Body/4096
+  artifactKey: Guid(bcf859fa58504114c8cb23dc18321b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suspension/Textures/Pickup/Body/4096 using Guid(bcf859fa58504114c8cb23dc18321b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6e9c33c62d1c97c9e5064bfc44e4dc') in 0.035483 seconds
+  Import took 0.037200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.855401 seconds.
+  path: Assets/Suspension/Materials
+  artifactKey: Guid(256e9b24705b0184c81957153cfbf0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suspension/Materials using Guid(256e9b24705b0184c81957153cfbf0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3e32058fb9f44d9c85d1a6fce5a35d') in 0.040917 seconds
+  Import took 0.042886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.286042 seconds.
+  path: Assets/Suspension/FBX
+  artifactKey: Guid(f9f2e7e8edc8ae4438d8b6ba31e8ae08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suspension/FBX using Guid(f9f2e7e8edc8ae4438d8b6ba31e8ae08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14bbd54e35937899c7c6f4227e02173') in 0.052991 seconds
+  Import took 0.057334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046616 seconds.
+  path: Assets/Suspension/FBX/PickUp.FBX
+  artifactKey: Guid(b57b299a5c482484592581d337cb755a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suspension/FBX/PickUp.FBX using Guid(b57b299a5c482484592581d337cb755a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bdfb22d7a7994b073eb4aa64e0497a') in 0.760114 seconds
+  Import took 0.762874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120614 seconds.
+  path: Assets/Suspension/FBX/Materials
+  artifactKey: Guid(287c960b85fd86341aa9a0aa722dbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suspension/FBX/Materials using Guid(287c960b85fd86341aa9a0aa722dbc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941f07a9c47d4ded5cba04ed290a5e4a') in 0.003575 seconds
+  Import took 0.005365 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000654 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.777 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.9 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1760.
+Total: 1.583200 ms (FindLiveObjects: 0.123200 ms CreateObjectMapping: 0.030800 ms MarkObjects: 1.384600 ms  DeleteObjects: 0.043700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000788 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.851 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.9 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1763.
+Total: 1.558600 ms (FindLiveObjects: 0.105900 ms CreateObjectMapping: 0.029900 ms MarkObjects: 1.367000 ms  DeleteObjects: 0.055000 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
