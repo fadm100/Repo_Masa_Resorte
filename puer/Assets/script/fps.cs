@@ -34,8 +34,13 @@ public class fps : MonoBehaviour
 
     void Update()
     {
-        h_mouse = mouseHorizontal * Input.GetAxis("Mouse X");
-        v_mouse += mouseVertical * Input.GetAxis("Mouse Y");
+        //h_mouse = mouseHorizontal * Input.GetAxis("Mouse X");
+        //v_mouse += mouseVertical * Input.GetAxis("Mouse Y");
+        Vector3 dir = Vector3.zero;
+        dir.y = -Input.acceleration.y;
+        dir.x = Input.acceleration.x;
+        h_mouse = mouseHorizontal * dir.x;
+        v_mouse += mouseVertical * dir.y;
 
         v_mouse = Mathf.Clamp(v_mouse, minRotation, maxRotation);
 

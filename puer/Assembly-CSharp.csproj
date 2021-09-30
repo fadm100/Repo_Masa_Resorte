@@ -57,7 +57,6 @@
      <Compile Include="Assets\Suspension\Scripts\MainScripts\SetRotationByRPM.cs" />
      <Compile Include="Assets\script\pue1.cs" />
      <Compile Include="Assets\Suspension\Scripts\MainScripts\Utils\ArrayExtensions.cs" />
-     <Compile Include="Assets\script\electro.cs" />
      <Compile Include="Assets\Suspension\Scripts\MainScripts\SetPosition.cs" />
      <Compile Include="Assets\Suspension\Scripts\MainScripts\LookAtOneAxis.cs" />
      <Compile Include="Assets\Suspension\Scripts\MainScripts\ArcMoveFromWheelCollider.cs" />
@@ -66,18 +65,15 @@
      <Compile Include="Assets\Suspension\Scripts\MainScripts\LookAt.cs" />
      <Compile Include="Assets\Suspension\Scripts\AdditionalScripts\GameController.cs" />
      <Compile Include="Assets\DampedSpringMotionCopier\Code\DampedSpringMotionCopier.Utils.cs" />
-     <Compile Include="Assets\script\nuev.cs" />
      <Compile Include="Assets\script\fps.cs" />
      <Compile Include="Assets\Suspension\Scripts\MainScripts\Axle.cs" />
      <Compile Include="Assets\Suspension\Scripts\MainScripts\SpringSheet.cs" />
      <Compile Include="Assets\DampedSpringMotionCopier\Code\SpringScale.cs" />
      <Compile Include="Assets\script\cuicuit2.cs" />
-     <Compile Include="Assets\script\proton.cs" />
      <Compile Include="Assets\script\contromotor.cs" />
      <Compile Include="Assets\script\luz.cs" />
      <Compile Include="Assets\script\circui.cs" />
      <Compile Include="Assets\Suspension\Scripts\MainScripts\Utils\TransformExtensions.cs" />
-     <Compile Include="Assets\script\neutron.cs" />
      <Compile Include="Assets\script\puertaa.cs" />
      <Compile Include="Assets\Suspension\Scripts\MainScripts\MoveBySteerAngle.cs" />
      <Compile Include="Assets\DampedSpringMotionCopier\Code\DampedSpringMotionCopier.cs" />
