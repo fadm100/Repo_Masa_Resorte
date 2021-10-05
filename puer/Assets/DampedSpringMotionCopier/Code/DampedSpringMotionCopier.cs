@@ -14,6 +14,8 @@ namespace PhysicalWalk
 		};
 
 		public Vector3 delta;
+		public float dampingCriticality;
+		public Vector3 naturalFrequency;
 	
 		/// Positional stuff
 		[System.Serializable] public class PositionalSpringTweaksAndState

@@ -6,7 +6,8 @@ using UnityEngine;
 public class SpringScale : MonoBehaviour
 {
     // Start is called before the first frame update
-    public DampedSpringMotionCopier pos;
+    //public DampedSpringMotionCopier pos;
+    private DampedSpringMotionCopier pos;
 
     private Vector3 _actual = new Vector3(5.0f , 4.0f , 5.0f);
     //public partial PositionalSpringTweaksAndState position;
@@ -28,7 +29,7 @@ public class SpringScale : MonoBehaviour
         var transformLocalScale = transform.localScale;
         transformLocalScale.y = _actual.y + pos.delta.z*4;
         transform.localScale = transformLocalScale;
-        Debug.Log("la posición que quiero es " + pos.delta);
+        //Debug.Log("la posición que quiero es " + pos.delta);
 
     }
 }
