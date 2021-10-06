@@ -2753,10 +2753,10 @@ RectTransform:
   m_Father: {fileID: 291868365}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.41700003, y: 0.29122156}
-  m_AnchorMax: {x: 0.41700003, y: 0.29122156}
-  m_AnchoredPosition: {x: -229.56, y: -85.750015}
-  m_SizeDelta: {x: 459.12, y: 171.5}
+  m_AnchorMin: {x: 0.41700003, y: 0.5835179}
+  m_AnchorMax: {x: 0.41700003, y: 0.5835179}
+  m_AnchoredPosition: {x: -229.56, y: -171.7265}
+  m_SizeDelta: {x: 459.12, y: 341.5471}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1015066103
 MonoBehaviour:
@@ -3080,8 +3080,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delta: {x: 0, y: 0, z: 0}
-  dampingCriticality: 0.1
-  naturalFrequency: {x: 10, y: 10, z: 10}
   positionalSpring:
     sourceObject: {fileID: 860593979}
     motionCopyingType: 1

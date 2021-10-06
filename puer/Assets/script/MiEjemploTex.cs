@@ -24,12 +24,15 @@ public class MiEjemploTex : MonoBehaviour
     {
         dats = FindObjectOfType<DampedSpringMotionCopier>();
 
-        float zita = dats.dampingCriticality;
-        float wn = dats.naturalFrequency.z;
+        float zita = dats.positionalSpring.dampingCriticality;
+        float wn = dats.positionalSpring.naturalFrequency.z;
         float num1 = wn*wn, num2 = 2*zita*wn;
-        //string formula = string.Format( @"Solve: \sin({0})+\root{{\frac{{{1}}}{{{2}}}", num1, num2, num3);
+        string formula1 = string.Format( @"\zeta{0}={0}{1}{2}", "\n", zita, Environment.NewLine); // Environment.NewLine hace el salto de linea pero también es necesario poner "\n\r" en la sección donde se imprime
+        string formula2 = string.Format( @"w_n{0}={0}{1}{2}", "\n", wn, Environment.NewLine);
         string formula = string.Format( @"TF:{3} G(s)=\frac{{{0}}}{{s^2+{1}s+{2}}}", num1, num2, num1, "\n");
-        output.text = formula;
+        output.text = formula1 + "\n\r" + formula2 + "\n\r" + formula;
+        //string formula = string.Format( @"\zeta={1}{0} TF:{5} G(s)=\frac{{{2}}}{{s^2+{3}s+{4}}}", Environment.NewLine, zita, num1, num2, num1, "\n");
+        //output.text = formula;
         //Debug.Log("El valor de zita es " + dats.dampingCriticality);
         //Debug.Log("El valor de wn es " + dats.naturalFrequency.z);
     }
