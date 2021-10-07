@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ControlTeclado : MonoBehaviour
 {
+    private bool myFlag = false;
     public Vector2 startPos;
     public Vector2 direction;
     public bool directionChosen;
@@ -27,8 +28,70 @@ public class ControlTeclado : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        /*if (Input.GetMouseButtonDown(0))
+        {
+            //Touch touch = Input.GetTouch(0); 
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            //Ray ray = Camera.main.ScreenPointToRay(touch.position);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit))
+            {
+                Debug.Log(hit.transform.name);
+
+                //Select condition
+                if (hit.transform.name == "MotionTarget")
+                {
+                    Debug.Log("si entra al if");
+                    Touch touch = Input.GetTouch(0);
+
+                    // Handle finger movements based on touch phase.
+                    switch (touch.phase)
+                    {
+                        // Record initial touch position.
+                        case TouchPhase.Began:
+                            startPos = touch.position;
+                            directionChosen = false;
+                            break;
+
+                        // Determine direction by comparing the current touch position with the initial one.
+                        case TouchPhase.Moved:
+                            //direction = touch.position - startPos;
+                            direction = startPos - touch.position;
+                            break;
+
+                        // Report that a direction has been chosen when the finger is lifted.
+                        case TouchPhase.Ended:
+                            directionChosen = true;
+                            break;
+                    }
+                    Debug.Log(directionChosen);
+                    Debug.Log(startPos);
+                    Debug.Log(touch.position);
+                }
+            }
+        }*/
+        
+        if (Input.GetMouseButtonDown(0))
+        {
+            //Touch touch = Input.GetTouch(0); 
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            //Ray ray = Camera.main.ScreenPointToRay(touch.position);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit))
+            {
+                Debug.Log(hit.transform.name);
+
+                //Select condition
+                if (hit.transform.name == "MotionTarget")
+                {
+                    myFlag = true;
+                }
+            }
+        }
+        
         // Track a single touch as a direction control.
-        if (Input.touchCount > 0)
+        if (myFlag)//(Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
 
@@ -53,6 +116,7 @@ public class ControlTeclado : MonoBehaviour
                     break;
             }
         }
+        //Debug.Log(directionChosen);
         if (directionChosen)
         {
             Debug.Log("La entrada horizontal es: " + direction.x);
@@ -68,6 +132,7 @@ public class ControlTeclado : MonoBehaviour
             //transform.Translate(TurnSpeed*Time.deltaTime*Vector3.right*horizontalInput);
             transform.Rotate(TurnSpeed*Time.deltaTime*Vector3.up*horizontalInput);
             directionChosen = false;
+            myFlag = false;
         }
         
         //this.transform.Translate(0,0,(float) 0.01); vehiculo hacia adelante con desplazqmientos cortos
