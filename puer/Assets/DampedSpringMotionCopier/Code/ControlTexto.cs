@@ -7,8 +7,8 @@ public class ControlTexto : MonoBehaviour {
     public Button Incremento;
     public Button Decremento;
     private Text miTexto;
-    float mass = 1.0f;
-    private float inc = 0.2f;
+    public static float mass = 1.0f;
+    private float inc = 1.0f;
 
     void Start () {
         Button btnIn = Incremento.GetComponent<Button>();
@@ -23,11 +23,12 @@ public class ControlTexto : MonoBehaviour {
 
     void TaskOnClickIn(){
         //Debug.Log ("You have clicked the button!");
-        double b;
-        b = System.Math.Round(mass,2);
-        if (b<=10)
+        
+        if (mass<10.0f)
         {
             mass = mass + inc;
+            double b;
+            b = System.Math.Round(mass,2);
             miTexto.text = "Masa = " + b;
         }
         else
@@ -39,11 +40,12 @@ public class ControlTexto : MonoBehaviour {
     
     void TaskOnClickDe(){
         //Debug.Log ("You have clicked the button!");
-        double b;
-        b = System.Math.Round(mass,2);
-        if (b>=1)
+        
+        if (mass>1.0f)
         {
             mass = mass - inc;
+            double b;
+            b = System.Math.Round(mass,2);
             miTexto.text = "Masa = " + b;
         }
         else

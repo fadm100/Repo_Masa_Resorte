@@ -86,8 +86,9 @@
      <Compile Include="Assets\script\cinta.cs" />
      <Compile Include="Assets\Suspension\Scripts\AdditionalScripts\InteractionStand.cs" />
      <Compile Include="Assets\script\CarryObject.cs" />
-     <Compile Include="Assets\Suspension\Scripts\MainScripts\SetRotationBySteerAngle.cs" />
      <Compile Include="Assets\DampedSpringMotionCopier\Code\ControlTexto.cs" />
+     <Compile Include="Assets\Suspension\Scripts\MainScripts\SetRotationBySteerAngle.cs" />
+     <Compile Include="Assets\ControlTextoK.cs" />
      <None Include="Assets\___www.unityassetcollection.com___.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

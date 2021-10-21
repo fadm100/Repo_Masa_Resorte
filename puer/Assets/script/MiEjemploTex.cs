@@ -25,11 +25,16 @@ public class MiEjemploTex : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        dats = FindObjectOfType<DampedSpringMotionCopier>();
+        dats = FindObjectOfType<DampedSpringMotionCopier>(); // tal vez esto ayude cuando se tienen variables privadas --> comprobar
 
-        float zita = dats.positionalSpring.dampingCriticality;
-        float wn = dats.positionalSpring.naturalFrequency.z;
-        float num1 = wn*wn, num2 = 2*zita*wn;
+        //float zita = dats.positionalSpring.dampingCriticality;
+        //float wn = dats.positionalSpring.naturalFrequency.z;
+        
+        double zita = System.Math.Round(DampedSpringMotionCopier.mu/(2*Mathf.Sqrt(ControlTextoK.k*ControlTexto.mass)),2);
+        double wn = System.Math.Round(Mathf.Sqrt(ControlTextoK.k/ControlTexto.mass),2);
+
+        double num1 = System.Math.Round(wn*wn,2);
+        double num2 = System.Math.Round(2*zita*wn,2);
         
         /*if (Input.GetMouseButtonDown(0))
         {

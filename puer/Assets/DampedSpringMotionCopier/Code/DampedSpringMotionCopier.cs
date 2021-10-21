@@ -13,6 +13,8 @@ namespace PhysicalWalk
 			NO_MOTION_COPYING
 		};
 
+		public static int mu = 20;
+
 		public Vector3 delta;
 		//public float damp;
 		//public Vector3 natFreq;
@@ -177,8 +179,10 @@ namespace PhysicalWalk
 					 currentRelativePosition[d],
 					 positionalSpring.springVelocity[d]	- (positionalSpring.applySpringInMovingReferenceFrame ? sourceVelocity[d] : 0.0f),
 					 zDt,
-					 positionalSpring.dampingCriticality,
-					 positionalSpring.naturalFrequency[d]
+					 mu/(2*Mathf.Sqrt(ControlTextoK.k*ControlTexto.mass)),
+					 //positionalSpring.dampingCriticality,
+					 Mathf.Sqrt(ControlTextoK.k/ControlTexto.mass) 
+					 //positionalSpring.naturalFrequency[d]
 				);
 			
 				newRelativePosition[d] = newRelativePosition_d;
